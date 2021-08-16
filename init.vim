@@ -33,6 +33,7 @@ luafile ~/.config/nvim/lsp/cpp-ls.lua
 luafile ~/.config/nvim/lsp/haskell-ls.lua
 luafile ~/.config/nvim/lua/plugins/lspsaga-config.lua
 luafile ~/.config/nvim/lsp/lspkind.lua
+luafile ~/.config/nvim/lsp/texlab-ls.lua
 
 set tabstop=4
 set shiftwidth=4
