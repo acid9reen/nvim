@@ -21,6 +21,7 @@ call plug#begin('~/.vim/plugged')
     "Plug 'neovimhaskell/haskell-vim'
     Plug 'vim-python/python-syntax'
     Plug 'preservim/tagbar'
+    Plug 'editorconfig/editorconfig-vim'
 
 call plug#end()
 
