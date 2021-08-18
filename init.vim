@@ -18,7 +18,6 @@ call plug#begin('~/.vim/plugged')
     Plug 'psliwka/vim-smoothie'
     Plug 'itchyny/vim-gitbranch'
     Plug 'dense-analysis/ale'
-    "Plug 'neovimhaskell/haskell-vim'
     Plug 'vim-python/python-syntax'
     Plug 'preservim/tagbar'
     Plug 'editorconfig/editorconfig-vim'
@@ -87,20 +86,6 @@ nmap <leader>cq :CMakeClose<cr>
 nnoremap <leader>n :NERDTreeFocus<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
 nnoremap <C-f> :NERDTreeFind<CR>
-
-"<----------haskell-vim---------->"
-"let g:haskell_classic_highlighting = 1
-"let g:haskell_indent_if = 3
-"let g:haskell_indent_case = 2
-"let g:haskell_indent_let = 4
-"let g:haskell_indent_where = 6
-"let g:haskell_indent_before_where = 2
-"let g:haskell_indent_after_bare_where = 2
-"let g:haskell_indent_do = 3
-"let g:haskell_indent_in = 1
-"let g:haskell_indent_guard = 2
-"let g:haskell_indent_case_alternative = 1
-"let g:cabal_indent_section = 2
 
 "<----------LightLine config---------->"
 let g:lightline = {
