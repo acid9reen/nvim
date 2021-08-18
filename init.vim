@@ -22,6 +22,8 @@ call plug#begin('~/.vim/plugged')
     Plug 'vim-python/python-syntax'
     Plug 'preservim/tagbar'
     Plug 'editorconfig/editorconfig-vim'
+    Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+    Plug 'junegunn/fzf.vim'
 
 call plug#end()
 
